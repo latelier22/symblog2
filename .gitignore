@@ -1,0 +1,35 @@
+# Ignore les fichiers générés par Symfony
+/.env.local
+/var/
+/public/bundles/
+
+# Ignore les fichiers de dépendances de Composer
+/vendor/
+
+# Ignore les fichiers spécifiques à votre environnement de développement
+/.vscode/
+/.idea/
+
+# Ignore les fichiers de sauvegarde et les fichiers temporaires
+*.bak
+*.swp
+*~
+
+# Ignore les fichiers de configuration spécifiques à l'utilisateur
+/.php_cs.cache
+/.php_cs.php
+
+# Ignore les fichiers de sauvegarde
+*.bak
+*.swp
+*~
+
+# Ignore les fichiers de logs
+/*.log
+
+# Ignore les fichiers d'installation et de build
+/node_modules/
+/yarn-error.log
+
+# Ne pas ignorer docker-compose.yml
+!/docker-compose.yml
